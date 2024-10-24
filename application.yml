@@ -6,9 +6,8 @@ server: # REST and WS server
 plugins:
   youtube:
     enabled: true
-    po:
-      visitorData: Cgs1bUdlTURGSjdhOCj1h-u4BjIKCgJVUxIEGgAgQQ%3D%3D
-      token: MnSKbJ7UOeV8VYpUpNeYsnzLcufOW40Ths8lKDt4d68nh7dGeuZa9ZaF3td6kh3Jbo9JyiklhSo7WHKSOvqsJKxEoWT9rmtnhhoVobcO7i9n90DwED-mPz76uhgM7GdBNn6GHofXUFhTwiI0lrf_vyAcSzZJRw==
+    oauth:
+      enabled: true
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
@@ -65,6 +64,7 @@ logging:
   level:
     root: INFO
     lavalink: INFO
+    dev.lavalink.youtube.http.YoutubeOauth2Handler: INFO
 
   request:
     enabled: true
