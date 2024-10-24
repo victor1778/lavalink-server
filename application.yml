@@ -8,6 +8,7 @@ plugins:
     enabled: true
     oauth:
       enabled: true
+      refreshToken: 1//05euA2MFDVlomCgYIARAAGAUSNwF-L9IrdV1KipAVYabIXREtr-EB77aqJByJX8NxinkpuxPLieb3jXGBqIHPMLPATm3RgeaP4H8
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
@@ -64,7 +65,6 @@ logging:
   level:
     root: INFO
     lavalink: INFO
-    dev.lavalink.youtube.http.YoutubeOauth2Handler: INFO
 
   request:
     enabled: true
